@@ -1,0 +1,27 @@
+{
+  "name": "vmw",
+  "version": "1.0.0",
+  "description": "VMWare Fusion CLI Helpers",
+  "main": "index.js",
+  "bin": {
+    "vmw": "./bin/vmw.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eknkc/vmw.git"
+  },
+  "keywords": [
+    "vmware",
+    "fusion"
+  ],
+  "author": "Ekin Koc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eknkc/vmw/issues"
+  },
+  "homepage": "https://github.com/eknkc/vmw",
+  "dependencies": {
+    "commander": "^2.7.1",
+    "find-parent-dir": "^0.3.0"
+  }
+}
